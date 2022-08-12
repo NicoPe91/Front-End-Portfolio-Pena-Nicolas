@@ -1,2 +1,3 @@
 Se implementará información profesional de Nicolás Pena, tanto de experiencia laboral
 estudios como de licencias obtenidas.
+Además se agregarán los cursos en curso.
