@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto&display=swap');
-* {
+
+/*configuraciones iniciales*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
 
+/*Scroll de la pagina*/
 html{
     scroll-behavior: smooth;
 }
 
+/*Imagen de fondo inicial*/
 #inicio{
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("Fondoinicio.jpg");
     background-size: cover;
@@ -17,16 +21,18 @@ html{
     height: 100vh;
 }
 
+/*Fondo del header*/
 #inicio .contenido header {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
     z-index: 100;
     top: 0;    
 }
 
+/*Barra header*/
 #inicio .contenido header .contenido-header{
-    max-width: 1100px;
+    max-width: 1800px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -34,70 +40,88 @@ html{
     padding: 10px 20px;
 }
 
+/*Header de Argentina Programa, inicialmente un texto, ahora una imagen*/
 #inicio .contenido header .contenido-header h1 {
-    text-align: center;
+    text-align: left;
     color: lightskyblue;
+    font-size: medium;
 }
 
-#inicio .contenido header .contenido-header nav ul{
+/*Alineación de los items (inicio, sobremi, experiencia, portfolio, etc.)*/
+#inicio .contenido header .contenido-header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
-
-#inicio .contenido header .contenido-header nav ul li a{
+/*Header inicio, sobremi, experiencia, portfolio y contacto*/
+#inicio .contenido header .contenido-header nav ul li a {
     text-decoration: none;
     color: #fff;
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
+    font-size: 20px;
 }
 
-#inicio .contenido header .contenido-header nav ul a:hover{
-    color: lightskyblue;
+/*Color sobre los íconos al pasar por encima*/
+#inicio .contenido header .contenido-header nav ul li a:hover{
+    color: rgb(143, 3, 143);
 }
 
-#inicio .contenido header .contenido-header .redes a{
+/*Iconos de redes*/
+#inicio .contenido header .contenido-header .redes a {
     text-decoration: none;
     color:#fff;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     transition: 0.5s;
+    font-size: 30px;
 }
 
-#inicio .contenido header .contenido-header .redes a:hover{
-    color: lightblue;
+/*Color del mouse de los íconos de redes y logín*/
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: rgb(143, 3, 143);
 }
 
-#inicio .contenido .presentacion{
-    max-width: 1100px;
+/*Boton inicio*/
+#inicio .contenido header .contenido-header .seleccionado {
+    color: darkcyan;
+}
+
+/*Primer párrafo de la presentación*/
+#inicio .contenido .presentacion {
+    max-width: 600px;
     height: 100vh;
     margin: auto;
-    columns: #fff;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#inicio .contenido .presentacion .bienvenida{
-    font-size: 16px;
+/*¡Hola Mundo!*/
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
+/*Texto de la presentación: Soy Nicolas Pena, Full...*/
 #inicio .contenido .presentacion h2 {
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
 }
 
+/*Nicolás Pena en la presentación*/
 #inicio .contenido .presentacion h2 span {
     font-size: 25x;
-    color: lightskyblue;
+    color: darkcyan;
 }
 
+/*Frase de descripción: Ningún marinero....*/
 #inicio .contenido .presentacion .descripcion {
     max-width: 700px;
     margin: 25px auto;
@@ -105,6 +129,7 @@ html{
     text-align: center;
 }
 
+/*Boton de ir a portfolio*/
 #inicio .contenido .presentacion a {
     text-decoration: none;
     display: inline-block;
@@ -118,11 +143,8 @@ html{
     transition: .5s;
 }
 
+/*Color de sombreado con mouse del ícono de ir a Portfolio*/
 #inicio .contenido .presentacion a:hover {
-    background-color: lightskyblue;
+    background-color: darkcyan;
 }
 
-#icono-nav {
-    color: #fff;
-    display: none;
-}
