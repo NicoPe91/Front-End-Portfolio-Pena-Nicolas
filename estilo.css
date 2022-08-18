@@ -13,6 +13,8 @@ html{
     scroll-behavior: smooth;
 }
 
+/*-----------------SECCIÓN INICIO---------------------------*/
+
 /*Imagen de fondo inicial*/
 #inicio{
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("Fondoinicio.jpg");
@@ -21,7 +23,7 @@ html{
     height: 100vh;
 }
 
-/*Fondo del header*/
+/*Fondo del header fijo*/
 #inicio .contenido header {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
@@ -148,12 +150,16 @@ html{
     background-color: darkcyan;
 }
 
+/*-----------------SECCIÓN SOBRE MÍ---------------------------*/
+
+
 #sobremi {
-    max-width: 1100px;
-    margin: auto;
-    padding: 100px 15px;
-    color: #515197;
+    max-width: 6096px;
+    margin: 0;
+    padding: 100px 20px 50px;
+    color: rgb(143, 3, 143);
     display: flex;
+    background: #111135;
 }
 
 #sobremi .contenedor-foto {
@@ -163,8 +169,8 @@ html{
 
 #sobremi .contenedor-foto img {
     padding: 20px;
-    width: 200%;
-    border-radius: 20px;
+    width: 150%;
+    border-radius: 10px;
     background-color: #f3f3f3;
 }
 
@@ -177,47 +183,58 @@ html{
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #fff;
     text-decoration-thickness: 5px;
 }
 
+/*Hola,...*/
 #sobremi .sobremi h2 {
     font-size: 34px;
     font-weight: bold;
-    margin: 20px 0;
+    margin-bottom: 20px;
+    margin-left: 98px;
     letter-spacing: 2px;
 }
 
+/*Nombre*/
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: darkcyan;
 }
 
+/*FSD Jr y DA Jr*/
 #sobremi .sobremi h3 {
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    margin-left: 100px;
 }
 
+/*Descripción*/
 #sobremi .sobremi p {
-    font-size: 14px;
-    line-height: 25px;
-    color: #565656;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
     margin-bottom: 12px;
+    margin-left: 100px;
 }
 
+/*Descargar CV*/
 #sobremi .sobremi a {
     display: inline-block;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border-radius: 30px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     padding: 10px 20px;
     margin-top: 30px;
+    margin-left: 100px;
     transition: .5s;
 }
 
+/*Botón descargar CV*/
 #sobremi .sobremi a:hover {
-    background-color: #ff5080;
+    background-color: darkcyan;
     color: #fff;
+}
