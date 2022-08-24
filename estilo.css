@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto&display=swap');
 
-/*configuraciones iniciales*/
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +16,7 @@ html{
 
 /*Imagen de fondo inicial*/
 #inicio{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("Fondoinicio.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -62,7 +61,7 @@ html{
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /*Color sobre los íconos al pasar por encima*/
@@ -152,25 +151,24 @@ html{
 
 /*-----------------SECCIÓN SOBRE MÍ---------------------------*/
 
-
 #sobremi {
-    max-width: 6096px;
-    margin: 0;
-    padding: 100px 20px 50px;
-    color: rgb(143, 3, 143);
+    max-width: auto;
+    background-color: #111135;
+    margin: auto;
+    padding: 100px 15px;
+    color: #ffff;
     display: flex;
-    background: #111135;
 }
 
 #sobremi .contenedor-foto {
-    max-width: 400px;
+    max-width: 200px;
     margin-right: 80px;
 }
 
 #sobremi .contenedor-foto img {
     padding: 20px;
     width: 150%;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #f3f3f3;
 }
 
@@ -181,9 +179,9 @@ html{
 #sobremi .sobremi .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #ffffff;
     text-decoration: underline;
-    text-decoration-color: #fff;
+    text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
 }
 
@@ -191,8 +189,7 @@ html{
 #sobremi .sobremi h2 {
     font-size: 34px;
     font-weight: bold;
-    margin-bottom: 20px;
-    margin-left: 98px;
+    margin: 20px 0;
     letter-spacing: 2px;
 }
 
@@ -208,28 +205,25 @@ html{
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    margin-left: 100px;
 }
 
 /*Descripción*/
 #sobremi .sobremi p {
-    font-size: 18px;
-    line-height: 20px;
-    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
     margin-bottom: 12px;
-    margin-left: 100px;
 }
 
 /*Descargar CV*/
 #sobremi .sobremi a {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     border: 1px solid #fff;
     padding: 10px 20px;
     margin-top: 30px;
-    margin-left: 100px;
     transition: .5s;
 }
 
@@ -237,4 +231,299 @@ html{
 #sobremi .sobremi a:hover {
     background-color: darkcyan;
     color: #fff;
+}
+
+/*-----------------SECCIÓN EXPERIENCIA---------------------------*/
+
+#experiencia {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #041348;
+}
+
+#experiencia .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: darkcyan;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px; 
+}
+
+#experiencia .fila {
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 30px auto;
+}
+
+#experiencia .fila .experiencias {
+    max-width: 350px;
+    background-color: #d3d3d3;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+#experiencia .fila .experiencias:hover {
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+}
+
+#experiencia .fila .expericias h4 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+#experiencia .fila .experiencias .icono {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+#experiencia .fila .experiencias hr {
+    width: 30%;
+    margin: auto;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+#experiencia .fila .experiencias ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#expriencia .fila .experiencias p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/*-----------------SECCIÓN HABILIDADES---------------------------*/
+
+.contenedor-habilidades {
+    background: linear-gradient( #2a0481cc, rgba(24, 0, 0, 0.7)), url("Fondoinicio.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contenedor-habilidades .habilidad {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.contenedor-habilidades .habilidad .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-habilidades .habilidad .lista {
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+}
+
+.contenedor-habilidades .habilidad .barra {
+    background-color: #919191;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0px;
+}
+
+.contenedor-habilidades .habilidad .barra .barra-progreso1 {
+    background-color: #fff;
+    width: 95%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+}
+
+.contenedor-habilidades .habilidad .barra .barra-progreso2 {
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+}
+
+.contenedor-habilidades .habilidad .barra .barra-progreso3 {
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+}
+
+.contenedor-habilidades .habilidad .barra .barra-progreso4 {
+    background-color: #fff;
+    width: 85%;
+    height: 6px;
+    animation: progreso4 2s forwards;
+}
+
+@keyframes progreso1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes progreso2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progreso3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progreso4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+/*-----------------SECCIÓN ESTUDIOS---------------------------*/
+
+#estudios {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#estudios .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#estudios .fila {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#estudios .fila .estudios {
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#estudios .fila .estudios img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+
+#estudios .fila .estudios:hover img {
+    filter: grayscale(0);
+}
+
+#estudios .fila .estudios .info {
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff5080;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+#estudios .fila .estudios:hover .info {
+    opacity: 1;
+    bottom: 0;
+}
+
+/*-----------------SECCIÓN PORTFOLIO---------------------------*/
+
+#portfolio {
+    background: #041348;
+    max-width: auto;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#portfolio .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#portfolio .fila {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio .fila .proyecto img {
+    width: 100%;
+    height: 100%;
+    ;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+
+#portfolio .fila .proyecto:hover img {
+    filter: grayscale(0);
+}
+
+#portfolio .fila .proyecto .info {
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff5080;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+#portfolio .fila .proyecto:hover .info {
+    opacity: 1;
+    bottom: 0;
 }
