@@ -155,9 +155,10 @@ html{
     max-width: auto;
     background-color: #111135;
     margin: auto;
-    padding: 100px 15px;
+    padding: center;
     color: #ffff;
     display: flex;
+    text-align: center;    
 }
 
 #sobremi .contenedor-foto {
